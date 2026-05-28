@@ -460,6 +460,27 @@ nav{
   padding:5px 10px;
   color:#212529;
 }
+.project-links{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.proj-btn-live{
+  display:inline-block;
+  background:#ffe066;
+  color:#111;
+  border:2px solid #000;
+  padding:10px 22px;
+  font-size:14px;
+  font-weight:700;
+  box-shadow:4px 4px #000;
+  transition:all .2s ease;
+}
+.proj-btn-live:hover{
+  transform:translate(3px,3px);
+  box-shadow:1px 1px #000;
+}
+
 .proj-btn{
   display:inline-block;
   background:#ff6b6b;
